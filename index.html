@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="build/tailwind.css">
+</head>
+<body>
+    <div class="min-h-screen flex justify-center items-center bg-gradient-to-b from-blue-800 to-red-700">
+        <!-- Main box -->
+            <div class="max-w-2xl bg-indigo-500 bg-opacity-25 rounded-lg px-7 py-8">
+                <h1 class="text-center text-3xl text-white uppercase mb-8">register</h1>
+            <!-- First and Last Name -->
+                <div class="space-x-2 mt-3">
+                    <input type="text" placeholder="First Name" class="bg-gray-300 bg-opacity-10 text-white text-center rounded-full p-2 focus:outline-none">
+                    <input type="text" placeholder="Last Name" class="bg-gray-300 bg-opacity-10 text-white text-center rounded-full p-2 focus:outline-none">
+                </div>
+            <!-- First and Last Name end -->
+            <!-- email -->
+                <div class="mt-5">
+                    <input type="email" placeholder="Email" class="w-full p-2 rounded-3xl bg-gray-300 bg-opacity-10 text-white focus:outline-none pl-6">
+                </div>
+            <!-- email end  -->    
+            <!-- password -->
+                <div class="mt-5">
+                   <input type="text" placeholder="password" class="w-full p-2 rounded-3xl bg-gray-300 bg-opacity-10 text-white focus:outline-none pl-6">
+                </div>
+            <!-- password end -->
+            <!-- confirm password -->
+                <div class="mt-5">
+                   <input type="text" placeholder="confirm password" class="w-full p-2 rounded-3xl bg-gray-300 bg-opacity-10 text-white focus:outline-none pl-6">
+                </div>
+           <!-- confirm password end -->
+        
+           <!-- checkbox -->
+            <div class="flex justify-center items-center space-x-4 mt-5 ">
+             <input type="checkbox" id="click">
+             <label for="click" class="text-white cursor-pointer">I accept <span class="text-blue-500 font-medium pl-1">Terms of Use</span</label>
+            </div>
+           <!-- checkbox end -->
+        
+           <!-- registration -->
+           <div class="flex justify-center mt-5">
+                <button class="bg-blue-600 text-white px-12 py-2 rounded-full uppercase font-sans hover:bg-white hover:text-blue-600 transition">register now</button>
+           </div>
+           <!-- registration end -->
+            
+            </div>
+        </div>
+</body>
+</html>
